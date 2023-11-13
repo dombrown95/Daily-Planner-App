@@ -37,3 +37,12 @@ if (hourElement) {
 }
 
 // Code for save button
+
+document.querySelectorAll('.saveBtn').forEach(function (button) {
+    button.addEventListener('click', function () {
+        var timeBlock = button.closest('.time-block');
+        var textContent = timeBlock.querySelector('textarea').value;
+        var timeBlockId = timeBlock.id;
+        localStorage.setItem(timeBlockId, textContent);
+    });
+});
