@@ -9,7 +9,7 @@ User Story
 
 Link to deployed site - 
 
-
+https://dombrown95.github.io/Daily-Planner-App/
 
 Image of deployed site - 
 
