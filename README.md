@@ -1,9 +1,20 @@
 # Daily-Planner-App
-A repo to hold the code for the Daily Planner Application
+
+This repository holds code for the Daily Planner Application, which is an easy-to-use calendar application that allows a user to save events for each hour of the day.
+
+User Story 
+- AS AN employee with a busy schedule
+- I WANT to add important events to a daily planner
+- SO THAT I can manage my time effectively
+
+Link to deployed site - 
+
+Image of deployed site - 
 
 
+# Configuration
 
-
+The included code enables users to save events for the hours of the day between 9AM and 5PM. If users would like to edit the times to match their schedules, this can be done by changing the HTML time block code and also modifying the JavaScript file to target the correct class/IDs.
 
 # Resources
 
