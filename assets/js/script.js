@@ -14,27 +14,18 @@ var currentHour = dayjs().format('H');
 
 document.querySelectorAll('.time-block').forEach(function(block) {
     var blockHour = parseInt(block.id);
+    var hourElement = block.querySelector('.hour');
     if (blockHour < currentHour) {
-        block.classList.remove('present');
-        block.classList.remove('future');
+        block.classList.remove('present', 'future');
         block.classList.add('past');
     } else if (blockHour == currentHour) {
-        block.classList.remove('past');
-        block.classList.remove('future');
+        block.classList.remove('past', 'future');
         block.classList.add('present');
     } else {
-        block.classList.remove('past');
-        block.classList.remove('present');
+        block.classList.remove('past', 'present');
         block.classList.add('future');
     }
 });
-
-// Code to fix error with hour styling
-
-varHourElement = block.querySelector('.hour');
-if (hourElement) {
-    hourElement.classList.add('hour');
-}
 
 // Code for save button
 

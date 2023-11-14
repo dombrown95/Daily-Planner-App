@@ -9,8 +9,11 @@ User Story
 
 Link to deployed site - 
 
+
+
 Image of deployed site - 
 
+![Alt text](<Screenshot 2023-11-14 160920.png>)
 
 # Configuration
 
@@ -33,3 +36,10 @@ https://stackoverflow.com/questions/62904905/how-do-i-color-code-time-blocks-usi
 - Save button help
 https://stackoverflow.com/questions/10333230/save-input-data-to-localstorage-on-button-click
 
+https://dev.to/michaelburrows/how-to-save-data-in-localstorage-using-javascript-994
+
+- Getting item from local storage 
+https://www.w3schools.com/jsref/met_storage_getitem.asp
+
+- DOMContentLoaded event help 
+https://www.javascripttutorial.net/javascript-dom/javascript-domcontentloaded/
